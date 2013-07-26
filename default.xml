@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".." />
+  <remote name="aosp"
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
 
   <remote  name="fc"
            fetch="git://github.com/franco-c/"
@@ -388,11 +389,11 @@
 
   <!-- vendor for devices -->
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="fc" revision="jb4.3" />
-  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="slim" revision="jb4.3" />
+  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="fc" revision="jb4.3" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="fc" revision="jb4.3" />
-  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="slim" revision="jb4.3" />
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="fc" revision="jb4.3" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="fc" revision="jb4.3" />
-  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="slim" revision="jb4.3" />
-  <project path="vendor/akm" name="proprietary_vendor_akm" remote="slim" revision="jb4.3" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="fc" revision="jb4.3" />
+  <project path="vendor/akm" name="proprietary_vendor_akm" remote="slim" revision="jb4.2" />
 
 </manifest>
