@@ -387,6 +387,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
+  <project path="vendor/ambient" name="android_vendor_ambient" remote="fc" revision="jb4.3" />
+
   <!-- vendor for devices -->
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="fc" revision="jb4.3" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="fc" revision="jb4.3" />
