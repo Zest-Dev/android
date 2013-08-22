@@ -1,0 +1,16 @@
+AMBIENT ROM
+===========
+
+Getting Started
+---------------
+
+To get started with AMBIENT ROM, you'll need to get
+familiar with [Git and Repo](http://source.android.com/download/using-repo).
+
+To initialize your local repository using the ParanoidAndroid trees, use a command like this:
+
+    repo init -u git://github.com/Zest-Dev/android.git -b jb4.3
+
+Then to sync up:
+
+    repo sync -f -c -j32
