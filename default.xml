@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
 
   <remote  name="fc"
-           fetch="git://github.com/franco-c/"
+           fetch="git://github.com/Zest-Dev/"
            sync-j="16"
            sync-c="16" />
            
